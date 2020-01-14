@@ -1,6 +1,6 @@
 # John-Doe-Masonry
 
-An introduction to HTML and CSS.
+An introduction project to HTML and CSS.
 
 Technologies used:
 
