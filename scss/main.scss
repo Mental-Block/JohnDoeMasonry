@@ -2,8 +2,8 @@ $pri-clr: #000;
 $sec-clr: #fff;
 $thr-clr: #fec823;
 
-$pri-txt: 'Times New Roman', Times, serif;
-$sec-txt: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+$pri-txt: "Times New Roman", Times, serif;
+$sec-txt: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
 $pri-bkg-clr: linear-gradient(#0a3e7d, #08305f);
 $sec-bkg-clr: #e8e8e8;
@@ -137,7 +137,6 @@ ul {
     background: url(../img/header.jpg) no-repeat center #f3f3f3;
     font-family: $sec-txt;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     img {
@@ -150,10 +149,16 @@ ul {
       line-height: 1em;
     }
 
-    ul {
-      li {
-        display: inline-block;
+    .center-flex {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
+    ul {
+      display: flex;
+      li {
         a {
           margin: 0 1em;
           color: $pri-clr;
